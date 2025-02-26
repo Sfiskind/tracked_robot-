@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dedperded/ros2_ws_test/install/serial/include/**",
+        "/home/dedperded/ros2_ws_test/install/diffdrive_arduino/include/**",
+        "/home/dedperded/ros2_ws/install/serial/include/**",
+        "/home/dedperded/ros2_ws/install/diffdrive_arduino/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/dedperded/ros2_ws_test/src/rplidar_ros/include/**",
+        "/home/dedperded/ros2_ws_test/src/serial/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

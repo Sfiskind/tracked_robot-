@@ -1,0 +1,79 @@
+[0.014s] Invoking command in '/home/dedperded/ros2_ws_test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dedperded/ros2_ws_test/src/serial -DCMAKE_INSTALL_PREFIX=/home/dedperded/ros2_ws_test/install/serial
+[0.079s] -- The C compiler identification is GNU 13.3.0
+[0.140s] -- The CXX compiler identification is GNU 13.3.0
+[0.159s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.267s] -- Detecting C compile features - done
+[0.277s] -- Detecting CXX compiler ABI info
+[0.394s] -- Detecting CXX compiler ABI info - done
+[0.402s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.403s] -- Detecting CXX compile features
+[0.403s] -- Detecting CXX compile features - done
+[0.408s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.585s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.727s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[0.739s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[0.744s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.745s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.848s] -- Found Threads: TRUE  
+[0.949s] -- Configuring done (0.9s)
+[0.961s] -- Generating done (0.0s)
+[0.965s] -- Build files have been written to: /home/dedperded/ros2_ws_test/build/serial
+[0.972s] Invoked command in '/home/dedperded/ros2_ws_test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dedperded/ros2_ws_test/src/serial -DCMAKE_INSTALL_PREFIX=/home/dedperded/ros2_ws_test/install/serial
+[0.973s] Invoking command in '/home/dedperded/ros2_ws_test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dedperded/ros2_ws_test/build/serial -- -j16 -l16
+[1.037s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.037s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.037s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.037s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[1.037s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[1.570s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[1.640s] [ 42%] Built target serial
+[1.711s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[2.654s] [ 57%] [32m[1mLinking CXX executable serial_example[0m
+[2.734s] [ 64%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.896s] [ 64%] Built target gtest_main
+[3.028s] [ 64%] Built target serial_example
+[6.985s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.067s] [ 71%] Built target gtest
+[7.099s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[7.099s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[7.863s] In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+[7.863s]                  from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+[7.863s]                  from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+[7.863s]                  from [01m[K/home/dedperded/ros2_ws_test/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[7.863s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[7.864s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[7.864s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.102s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[8.189s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[8.291s] [100%] Built target serial-test-timer
+[8.377s] [100%] Built target serial-test
+[8.396s] Invoked command in '/home/dedperded/ros2_ws_test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dedperded/ros2_ws_test/build/serial -- -j16 -l16
+[8.398s] Invoking command in '/home/dedperded/ros2_ws_test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dedperded/ros2_ws_test/build/serial
+[8.411s] -- Install configuration: ""
+[8.411s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/lib/libserial.a
+[8.412s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/include/serial/serial.h
+[8.412s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/include/serial/v8stdint.h
+[8.412s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/environment/library_path.sh
+[8.412s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/environment/library_path.dsv
+[8.412s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[8.413s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[8.413s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/environment/ament_prefix_path.sh
+[8.413s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/environment/ament_prefix_path.dsv
+[8.413s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/environment/path.sh
+[8.413s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/environment/path.dsv
+[8.413s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/local_setup.bash
+[8.414s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/local_setup.sh
+[8.414s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/local_setup.zsh
+[8.414s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/local_setup.dsv
+[8.414s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/package.dsv
+[8.414s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/ament_index/resource_index/packages/serial
+[8.414s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.415s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[8.415s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/cmake/serialConfig.cmake
+[8.415s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/cmake/serialConfig-version.cmake
+[8.415s] -- Installing: /home/dedperded/ros2_ws_test/install/serial/share/serial/package.xml
+[8.421s] Invoked command in '/home/dedperded/ros2_ws_test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dedperded/ros2_ws_test/build/serial

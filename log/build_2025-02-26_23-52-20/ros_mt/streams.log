@@ -1,0 +1,124 @@
+[0.017s] Invoking command in '/home/dedperded/ros2_ws_test/build/ros_mt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dedperded/ros2_ws_test/src/ros_mt -DCMAKE_INSTALL_PREFIX=/home/dedperded/ros2_ws_test/install/ros_mt
+[0.088s] -- The C compiler identification is GNU 13.3.0
+[0.149s] -- The CXX compiler identification is GNU 13.3.0
+[0.167s] -- Detecting C compiler ABI info
+[0.267s] -- Detecting C compiler ABI info - done
+[0.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.275s] -- Detecting C compile features
+[0.276s] -- Detecting C compile features - done
+[0.285s] -- Detecting CXX compiler ABI info
+[0.404s] -- Detecting CXX compiler ABI info - done
+[0.412s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.412s] -- Detecting CXX compile features
+[0.413s] -- Detecting CXX compile features - done
+[0.418s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.593s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.730s] -- Found ros_gz_bridge: 1.0.7 (/opt/ros/jazzy/share/ros_gz_bridge/cmake)
+[0.794s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.813s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.834s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.857s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.952s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.957s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.074s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.102s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.133s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.313s] -- Looking for gz-msgs10 -- found version 10.3.1
+[1.322s] -- Searching for dependencies of gz-msgs10
+[1.493s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[1.498s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.499s] -- Searching for dependencies of gz-utils2
+[1.503s] -- Looking for gz-math7 -- found version 7.5.1
+[1.503s] -- Searching for dependencies of gz-math7
+[1.503s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.513s] -- Checking for module 'tinyxml2'
+[1.541s] --   Found tinyxml2, version 10.0.0
+[2.170s] -- Looking for gz-transport13 -- found version 13.4.0
+[2.170s] -- Searching for dependencies of gz-transport13
+[2.290s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.311s] -- Checking for module 'libzmq >= 4'
+[2.413s] --   Found libzmq, version 4.3.5
+[2.634s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.659s] -- Checking for module 'uuid'
+[2.742s] --   Found uuid, version 2.39.3
+[2.939s] -- Found UUID: TRUE  
+[2.939s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.940s] -- Searching for dependencies of gz-utils2
+[2.940s] -- Searching for <gz-utils2> component [cli]
+[2.942s] -- Looking for gz-utils2-cli -- found version 2.2.0
+[2.942s] -- Searching for dependencies of gz-utils2-cli
+[2.944s] -- Looking for gz-msgs10 -- found version 10.3.1
+[3.463s] -- Found ros_gz_sim: 1.0.7 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[3.474s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.891s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.921s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.921s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.927s] -- Added test 'lint_cmake' to check CMake code style
+[3.930s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.960s] -- Added test 'xmllint' to check XML markup files
+[3.971s] -- Configuring done (3.9s)
+[4.005s] -- Generating done (0.0s)
+[4.018s] -- Build files have been written to: /home/dedperded/ros2_ws_test/build/ros_mt
+[4.128s] Invoked command in '/home/dedperded/ros2_ws_test/build/ros_mt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dedperded/ros2_ws_test/src/ros_mt -DCMAKE_INSTALL_PREFIX=/home/dedperded/ros2_ws_test/install/ros_mt
+[4.133s] Invoking command in '/home/dedperded/ros2_ws_test/build/ros_mt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dedperded/ros2_ws_test/build/ros_mt -- -j16 -l16
+[4.340s] Invoked command in '/home/dedperded/ros2_ws_test/build/ros_mt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dedperded/ros2_ws_test/build/ros_mt -- -j16 -l16
+[4.394s] Invoking command in '/home/dedperded/ros2_ws_test/build/ros_mt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dedperded/ros2_ws_test/build/ros_mt
+[4.431s] -- Install configuration: ""
+[4.432s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/config
+[4.439s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/config/gz_bridge.yaml
+[4.440s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/config/robot.rviz
+[4.440s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/config/config
+[4.440s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/config/config/controllers.yaml
+[4.440s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/description
+[4.440s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/description/lidar_scanner.xacro
+[4.441s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/description/robot_model.xacro
+[4.441s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/description/gazebo_control.xacro
+[4.441s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/description/robot.urdf.xacro
+[4.441s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch
+[4.441s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/build
+[4.441s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/build/.built_by
+[4.441s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/build/COLCON_IGNORE
+[4.441s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/rsp.launch.py
+[4.441s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/log
+[4.442s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/log/build_2025-02-04_14-25-50
+[4.442s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/log/build_2025-02-04_14-25-50/logger_all.log
+[4.442s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/log/build_2025-02-04_14-25-50/events.log
+[4.442s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/log/build_2025-02-04_14-26-50
+[4.442s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/log/build_2025-02-04_14-26-50/logger_all.log
+[4.445s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/log/build_2025-02-04_14-26-50/events.log
+[4.446s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/log/COLCON_IGNORE
+[4.447s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/log/latest_build
+[4.447s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/launch_sim.launch.py
+[4.447s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install
+[4.447s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/setup.ps1
+[4.447s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/_local_setup_util_ps1.py
+[4.447s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/.colcon_install_layout
+[4.447s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/local_setup.ps1
+[4.447s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/local_setup.sh
+[4.448s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/setup.bash
+[4.451s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/COLCON_IGNORE
+[4.452s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/_local_setup_util_sh.py
+[4.452s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/local_setup.bash
+[4.453s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/setup.zsh
+[4.453s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/local_setup.zsh
+[4.453s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/install/setup.sh
+[4.453s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/launch/launch_sim
+[4.453s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/worlds
+[4.453s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/worlds/empty.world
+[4.458s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/worlds/obstacles.word
+[4.459s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ament_index/resource_index/package_run_dependencies/ros_mt
+[4.459s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ament_index/resource_index/parent_prefix_path/ros_mt
+[4.459s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/environment/ament_prefix_path.sh
+[4.459s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/environment/ament_prefix_path.dsv
+[4.459s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/environment/path.sh
+[4.459s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/environment/path.dsv
+[4.459s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/local_setup.bash
+[4.460s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/local_setup.sh
+[4.460s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/local_setup.zsh
+[4.464s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/local_setup.dsv
+[4.465s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/package.dsv
+[4.465s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ament_index/resource_index/packages/ros_mt
+[4.465s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/cmake/ros_mtConfig.cmake
+[4.465s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/cmake/ros_mtConfig-version.cmake
+[4.465s] -- Installing: /home/dedperded/ros2_ws_test/install/ros_mt/share/ros_mt/package.xml
+[4.479s] Invoked command in '/home/dedperded/ros2_ws_test/build/ros_mt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dedperded/ros2_ws_test/build/ros_mt
