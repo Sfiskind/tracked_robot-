@@ -7,7 +7,7 @@
       },
       "includePath": [
         "/home/dedperded/ros2_ws/install/serial/include/**",
-        "/home/dedperded/ros2_ws/install/diffdrive_arduino/include/**",
+        "/home/dedperded/ros2_ws/install/arduino_ros2_control/include/**",
         "/opt/ros/jazzy/include/**",
         "/home/dedperded/ros2_ws_test/src/rplidar_ros/include/**",
         "/usr/include/**"

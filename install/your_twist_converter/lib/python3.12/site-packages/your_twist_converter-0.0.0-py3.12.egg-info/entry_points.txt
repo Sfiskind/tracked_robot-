@@ -1,0 +1,2 @@
+[console_scripts]
+twist_converter = your_twist_converter.twist_converter:main

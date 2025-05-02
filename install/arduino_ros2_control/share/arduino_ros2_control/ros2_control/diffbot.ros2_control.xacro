@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="diffbot_ros2_control" params="name prefix">
+
+    <ros2_control name="${name}" type="system">
+      <hardware>
+        <plugin>arduino_ros2_control/ArduinoHardware</plugin>
+        <param name="left_track_name">left_track_joint</param>
+        <param name="right_track_name">right_track_joint</param>
+        <param name="loop_rate">20</param>
+        <param name="device">/dev/arduino</param>
+        <param name="baud_rate">115200</param>
+        <param name="timeout_ms">1000</param>
+        <param name="enc_counts_per_rev">160</param>
+        <!-- <param name="gear_ratio">19.20</param>  -->
+        <param name="pid_p">25</param>
+        <param name="pid_d">10</param>
+        <param name="pid_i">7</param>
+        <param name="pid_o">20</param>        
+      </hardware>
+      <joint name="${prefix}left_track_joint">
+        <command_interface name="velocity"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+      </joint>
+      <joint name="${prefix}right_track_joint">
+        <command_interface name="velocity"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+      </joint>
+    </ros2_control>
+
+  </xacro:macro>
+
+</robot>

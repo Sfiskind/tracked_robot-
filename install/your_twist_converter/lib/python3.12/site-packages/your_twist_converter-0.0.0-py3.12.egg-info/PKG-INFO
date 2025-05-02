@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: your-twist-converter
+Version: 0.0.0
+Summary: A package that converts Twist to TwistStamped.
+Author: Your Name
+Author-email: your.email@example.com
+License: Apache License 2.0

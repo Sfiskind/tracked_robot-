@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/your_twist_converter/your_twist_converter.egg-info/PKG-INFO
+writing dependency_links to ../../build/your_twist_converter/your_twist_converter.egg-info/dependency_links.txt
+writing entry points to ../../build/your_twist_converter/your_twist_converter.egg-info/entry_points.txt
+writing requirements to ../../build/your_twist_converter/your_twist_converter.egg-info/requires.txt
+writing top-level names to ../../build/your_twist_converter/your_twist_converter.egg-info/top_level.txt
+reading manifest file '../../build/your_twist_converter/your_twist_converter.egg-info/SOURCES.txt'
+writing manifest file '../../build/your_twist_converter/your_twist_converter.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/pi/ros2_main/install/your_twist_converter/lib/python3.12/site-packages/your_twist_converter/twist_converter.py to twist_converter.cpython-312.pyc
+running install_data
+Sorry: IndentationError: unexpected indent (twist_converter.py, line 11)
+running install_egg_info
+removing '/home/pi/ros2_main/install/your_twist_converter/lib/python3.12/site-packages/your_twist_converter-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/your_twist_converter/your_twist_converter.egg-info to /home/pi/ros2_main/install/your_twist_converter/lib/python3.12/site-packages/your_twist_converter-0.0.0-py3.12.egg-info
+running install_scripts
+Installing twist_converter script to /home/pi/ros2_main/install/your_twist_converter/lib/your_twist_converter
+writing list of installed files to '/home/pi/ros2_main/build/your_twist_converter/install.log'

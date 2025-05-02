@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dedperded/ros2_ws_test/src/serial
+CMAKE_SOURCE_DIR = /home/pi/ros2_main/src/serial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dedperded/ros2_ws_test/build/serial
+CMAKE_BINARY_DIR = /home/pi/ros2_main/build/serial
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/dedperded/ros2_ws_test/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dedperded/ros2_ws_test/src/serial /home/dedperded/ros2_ws_test/src/serial /home/dedperded/ros2_ws_test/build/serial /home/dedperded/ros2_ws_test/build/serial /home/dedperded/ros2_ws_test/build/serial/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/pi/ros2_main/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ros2_main/src/serial /home/pi/ros2_main/src/serial /home/pi/ros2_main/build/serial /home/pi/ros2_main/build/serial /home/pi/ros2_main/build/serial/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

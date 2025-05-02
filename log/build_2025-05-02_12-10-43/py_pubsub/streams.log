@@ -1,0 +1,49 @@
+[3.260s] Invoking command in '/home/pi/ros2_main/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_main/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/pi/ros2_main/build/py_pubsub/build install --record /home/pi/ros2_main/build/py_pubsub/install.log --single-version-externally-managed install_data
+[4.027s] running egg_info
+[4.031s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[4.128s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[4.130s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[4.133s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[4.133s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[4.133s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[4.138s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.252s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.252s] adding license file 'LICENSE'
+[4.254s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[4.254s] running build
+[4.254s] running build_py
+[4.255s] creating /home/pi/ros2_main/build/py_pubsub/build
+[4.256s] creating /home/pi/ros2_main/build/py_pubsub/build/lib
+[4.257s] creating /home/pi/ros2_main/build/py_pubsub/build/lib/py_pubsub
+[4.260s] copying py_pubsub/camera_pub.py -> /home/pi/ros2_main/build/py_pubsub/build/lib/py_pubsub
+[4.261s] copying py_pubsub/subscriber_member_function.py -> /home/pi/ros2_main/build/py_pubsub/build/lib/py_pubsub
+[4.261s] copying py_pubsub/cam_test.py -> /home/pi/ros2_main/build/py_pubsub/build/lib/py_pubsub
+[4.262s] copying py_pubsub/__init__.py -> /home/pi/ros2_main/build/py_pubsub/build/lib/py_pubsub
+[4.263s] copying py_pubsub/publisher_member_function.py -> /home/pi/ros2_main/build/py_pubsub/build/lib/py_pubsub
+[4.266s] running install
+[4.285s] running install_lib
+[4.370s] creating /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[4.371s] copying /home/pi/ros2_main/build/py_pubsub/build/lib/py_pubsub/camera_pub.py -> /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[4.374s] copying /home/pi/ros2_main/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[4.375s] copying /home/pi/ros2_main/build/py_pubsub/build/lib/py_pubsub/cam_test.py -> /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[4.375s] copying /home/pi/ros2_main/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[4.375s] copying /home/pi/ros2_main/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[4.375s] byte-compiling /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/camera_pub.py to camera_pub.cpython-312.pyc
+[4.376s] byte-compiling /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[4.377s] byte-compiling /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/cam_test.py to cam_test.cpython-312.pyc
+[4.378s] byte-compiling /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[4.378s] byte-compiling /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[4.380s] running install_data
+[4.380s] creating /home/pi/ros2_main/install/py_pubsub/share/ament_index
+[4.380s] creating /home/pi/ros2_main/install/py_pubsub/share/ament_index/resource_index
+[4.380s] creating /home/pi/ros2_main/install/py_pubsub/share/ament_index/resource_index/packages
+[4.380s] copying resource/py_pubsub -> /home/pi/ros2_main/install/py_pubsub/share/ament_index/resource_index/packages
+[4.380s] copying package.xml -> /home/pi/ros2_main/install/py_pubsub/share/py_pubsub
+[4.382s] running install_egg_info
+[4.441s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[4.445s] running install_scripts
+[5.007s] Installing camera script to /home/pi/ros2_main/install/py_pubsub/lib/py_pubsub
+[5.009s] Installing listener script to /home/pi/ros2_main/install/py_pubsub/lib/py_pubsub
+[5.009s] Installing talker script to /home/pi/ros2_main/install/py_pubsub/lib/py_pubsub
+[5.009s] writing list of installed files to '/home/pi/ros2_main/build/py_pubsub/install.log'
+[5.393s] Invoked command in '/home/pi/ros2_main/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_main/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/pi/ros2_main/build/py_pubsub/build install --record /home/pi/ros2_main/build/py_pubsub/install.log --single-version-externally-managed install_data

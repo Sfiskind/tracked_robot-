@@ -1,0 +1,33 @@
+[0.049s] Invoking command in '/home/pi/ros2_main/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_main/build/serial -- -j4 -l4
+[0.481s] [ 28%] Built target serial
+[0.564s] [ 42%] Built target gtest
+[0.759s] [ 57%] Built target gtest_main
+[0.795s] [ 71%] Built target serial_example
+[1.038s] [ 85%] Built target serial-test
+[1.044s] [100%] Built target serial-test-timer
+[2.168s] Invoked command in '/home/pi/ros2_main/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_main/build/serial -- -j4 -l4
+[2.174s] Invoking command in '/home/pi/ros2_main/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_main/build/serial
+[2.262s] -- Install configuration: ""
+[2.266s] -- Up-to-date: /home/pi/ros2_main/install/serial/lib/libserial.a
+[2.267s] -- Up-to-date: /home/pi/ros2_main/install/serial/include/serial/serial.h
+[2.267s] -- Up-to-date: /home/pi/ros2_main/install/serial/include/serial/v8stdint.h
+[2.268s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/environment/library_path.sh
+[2.268s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/environment/library_path.dsv
+[2.268s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.273s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.274s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.274s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.277s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/environment/path.sh
+[2.281s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/environment/path.dsv
+[2.282s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/local_setup.bash
+[2.282s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/local_setup.sh
+[2.284s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/local_setup.zsh
+[2.289s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/local_setup.dsv
+[2.295s] -- Installing: /home/pi/ros2_main/install/serial/share/serial/package.dsv
+[2.296s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/ament_index/resource_index/packages/serial
+[2.296s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.296s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.296s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/cmake/serialConfig.cmake
+[2.297s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.310s] -- Up-to-date: /home/pi/ros2_main/install/serial/share/serial/package.xml
+[2.311s] Invoked command in '/home/pi/ros2_main/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_main/build/serial

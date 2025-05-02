@@ -1,8 +1,8 @@
-# Install script for directory: /home/dedperded/ros2_ws_test/src/serial/tests
+# Install script for directory: /home/pi/ros2_main/src/serial/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dedperded/ros2_ws_test/install/serial")
+  set(CMAKE_INSTALL_PREFIX "/home/pi/ros2_main/install/serial")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dedperded/ros2_ws_test/build/serial/gtest/cmake_install.cmake")
+  include("/home/pi/ros2_main/build/serial/gtest/cmake_install.cmake")
 
 endif()
 

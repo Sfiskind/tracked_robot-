@@ -1,0 +1,31 @@
+[  5%] Built target rplidar_client
+[ 52%] Built target rplidar_node
+[100%] Built target rplidar_composition
+-- Install configuration: ""
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/launch
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/rviz
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+-- Set non-toolchain portion of runtime path of "/home/pi/ros2_main/install/rplidar_ros/lib/rplidar_ros/rplidar_node" to ""
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+-- Set non-toolchain portion of runtime path of "/home/pi/ros2_main/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+-- Set non-toolchain portion of runtime path of "/home/pi/ros2_main/install/rplidar_ros/lib/rplidar_ros/rplidar_client" to ""
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/package.dsv
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+-- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/package.xml

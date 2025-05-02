@@ -1,0 +1,23 @@
+[5.212s] Invoking command in '/home/pi/ros2_main/src/your_twist_converter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_main/build/your_twist_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_main/install/your_twist_converter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/your_twist_converter build --build-base /home/pi/ros2_main/build/your_twist_converter/build install --record /home/pi/ros2_main/build/your_twist_converter/install.log --single-version-externally-managed install_data
+[6.385s] running egg_info
+[6.507s] writing ../../build/your_twist_converter/your_twist_converter.egg-info/PKG-INFO
+[6.512s] writing dependency_links to ../../build/your_twist_converter/your_twist_converter.egg-info/dependency_links.txt
+[6.513s] writing entry points to ../../build/your_twist_converter/your_twist_converter.egg-info/entry_points.txt
+[6.516s] writing requirements to ../../build/your_twist_converter/your_twist_converter.egg-info/requires.txt
+[6.517s] writing top-level names to ../../build/your_twist_converter/your_twist_converter.egg-info/top_level.txt
+[6.681s] reading manifest file '../../build/your_twist_converter/your_twist_converter.egg-info/SOURCES.txt'
+[6.681s] writing manifest file '../../build/your_twist_converter/your_twist_converter.egg-info/SOURCES.txt'
+[6.688s] running build
+[6.688s] running build_py
+[6.689s] running install
+[6.706s] running install_lib
+[6.780s] byte-compiling /home/pi/ros2_main/install/your_twist_converter/lib/python3.12/site-packages/your_twist_converter/twist_converter.py to twist_converter.cpython-312.pyc
+[6.785s] Sorry: IndentationError: unexpected indent (twist_converter.py, line 11)
+[6.785s] running install_data
+[6.785s] running install_egg_info
+[6.884s] removing '/home/pi/ros2_main/install/your_twist_converter/lib/python3.12/site-packages/your_twist_converter-0.0.0-py3.12.egg-info' (and everything under it)
+[6.887s] Copying ../../build/your_twist_converter/your_twist_converter.egg-info to /home/pi/ros2_main/install/your_twist_converter/lib/python3.12/site-packages/your_twist_converter-0.0.0-py3.12.egg-info
+[6.889s] running install_scripts
+[7.420s] Installing twist_converter script to /home/pi/ros2_main/install/your_twist_converter/lib/your_twist_converter
+[7.422s] writing list of installed files to '/home/pi/ros2_main/build/your_twist_converter/install.log'
+[7.562s] Invoked command in '/home/pi/ros2_main/src/your_twist_converter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_main/build/your_twist_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_main/install/your_twist_converter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/your_twist_converter build --build-base /home/pi/ros2_main/build/your_twist_converter/build install --record /home/pi/ros2_main/build/your_twist_converter/install.log --single-version-externally-managed install_data

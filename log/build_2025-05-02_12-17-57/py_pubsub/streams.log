@@ -1,0 +1,24 @@
+[5.607s] Invoking command in '/home/pi/ros2_main/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_main/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/pi/ros2_main/build/py_pubsub/build install --record /home/pi/ros2_main/build/py_pubsub/install.log --single-version-externally-managed install_data
+[7.122s] running egg_info
+[7.234s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[7.235s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[7.235s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[7.239s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[7.239s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[7.442s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[7.443s] adding license file 'LICENSE'
+[7.447s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[7.448s] running build
+[7.448s] running build_py
+[7.448s] running install
+[7.478s] running install_lib
+[7.584s] running install_data
+[7.585s] running install_egg_info
+[7.729s] removing '/home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[7.731s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[7.736s] running install_scripts
+[8.430s] Installing camera script to /home/pi/ros2_main/install/py_pubsub/lib/py_pubsub
+[8.433s] Installing listener script to /home/pi/ros2_main/install/py_pubsub/lib/py_pubsub
+[8.433s] Installing talker script to /home/pi/ros2_main/install/py_pubsub/lib/py_pubsub
+[8.433s] writing list of installed files to '/home/pi/ros2_main/build/py_pubsub/install.log'
+[8.818s] Invoked command in '/home/pi/ros2_main/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_main/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_main/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/pi/ros2_main/build/py_pubsub/build install --record /home/pi/ros2_main/build/py_pubsub/install.log --single-version-externally-managed install_data

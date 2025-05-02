@@ -1,0 +1,66 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/arduino_ros2_control.dir/hardware/bot_syst.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libarduino_ros2_control.so[0m
+[100%] Built target arduino_ros2_control
+-- Install configuration: ""
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/arduino_ros2_control.xml
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/include/arduino_ros2_control
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/include/arduino_ros2_control/arduino_ros2_control
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/include/arduino_ros2_control/arduino_ros2_control/visibility_control.h
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/include/arduino_ros2_control/arduino_ros2_control/tracks.hpp
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/include/arduino_ros2_control/arduino_ros2_control/bot_syst.hpp
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/include/arduino_ros2_control/arduino_ros2_control/serial_comms.hpp
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/view_robot.launch.py
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/ros2_control
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/ros2_control/diffbot.ros2_control.xacro
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/urdf
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/urdf/diffbot.materials.xacro
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/urdf/diffbot_description.urdf.xacro
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/urdf/diffbot.urdf.xacro
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/rviz
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/rviz/diffbot.rviz
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/rviz/diffbot_view.rviz
+-- Up-to-date: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/__pycache__
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/__pycache__/navigation_launch.cpython-312.pyc
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/__pycache__/localization_launch.cpython-312.pyc
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/__pycache__/online_async_launch.cpython-312.pyc
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/__pycache__/online_sync_launch.cpython-312.pyc
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/__pycache__/diffbot.launch.cpython-312.pyc
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/navigation_launch.py
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/compl_map_create_launch.py
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/localization_launch.py
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/online_sync_launch.py
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/online_async_launch.py
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/compl_navigation_launch.py
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/launch/diffbot.launch.py
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/config
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/config/mapper_params_online_async.yaml
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/config/nav2_params.yaml
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/config/mapper_params_online_sync.yaml
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/config/diffbot_controllers.yaml
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/config/local_params_online_async.yaml
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/lib/libarduino_ros2_control.so
+-- Set non-toolchain portion of runtime path of "/home/pi/ros2_main/install/arduino_ros2_control/lib/libarduino_ros2_control.so" to ""
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/environment/library_path.sh
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/environment/library_path.dsv
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/ament_index/resource_index/package_run_dependencies/arduino_ros2_control
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/ament_index/resource_index/parent_prefix_path/arduino_ros2_control
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/environment/ament_prefix_path.sh
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/environment/ament_prefix_path.dsv
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/environment/path.sh
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/environment/path.dsv
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/local_setup.bash
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/local_setup.sh
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/local_setup.zsh
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/local_setup.dsv
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/package.dsv
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/ament_index/resource_index/packages/arduino_ros2_control
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arduino_ros2_control
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/cmake/export_arduino_ros2_controlExport.cmake
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/cmake/export_arduino_ros2_controlExport-noconfig.cmake
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/cmake/arduino_ros2_controlConfig.cmake
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/cmake/arduino_ros2_controlConfig-version.cmake
+-- Installing: /home/pi/ros2_main/install/arduino_ros2_control/share/arduino_ros2_control/package.xml

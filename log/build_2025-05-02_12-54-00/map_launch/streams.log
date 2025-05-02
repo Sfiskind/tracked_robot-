@@ -1,0 +1,22 @@
+[0.080s] Invoking command in '/home/pi/ros2_main/build/map_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_main/build/map_launch -- -j4 -l4
+[0.785s] Invoked command in '/home/pi/ros2_main/build/map_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_main/build/map_launch -- -j4 -l4
+[0.787s] Invoking command in '/home/pi/ros2_main/build/map_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_main/build/map_launch
+[0.818s] -- Install configuration: ""
+[0.818s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/launch
+[0.820s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/launch/map_server.launch.py
+[0.821s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/ament_index/resource_index/package_run_dependencies/map_launch
+[0.821s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/ament_index/resource_index/parent_prefix_path/map_launch
+[0.824s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/environment/ament_prefix_path.sh
+[0.825s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/environment/ament_prefix_path.dsv
+[0.825s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/environment/path.sh
+[0.825s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/environment/path.dsv
+[0.825s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/local_setup.bash
+[0.825s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/local_setup.sh
+[0.825s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/local_setup.zsh
+[0.825s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/local_setup.dsv
+[0.825s] -- Installing: /home/pi/ros2_main/install/map_launch/share/map_launch/package.dsv
+[0.827s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/ament_index/resource_index/packages/map_launch
+[0.827s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/cmake/map_launchConfig.cmake
+[0.827s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/cmake/map_launchConfig-version.cmake
+[0.828s] -- Up-to-date: /home/pi/ros2_main/install/map_launch/share/map_launch/package.xml
+[0.902s] Invoked command in '/home/pi/ros2_main/build/map_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_main/build/map_launch

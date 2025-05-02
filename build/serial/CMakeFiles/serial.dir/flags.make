@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dedperded/ros2_ws_test/src/serial/include
+CXX_INCLUDES = -I/home/pi/ros2_main/src/serial/include
 
 CXX_FLAGS = -fPIC
 

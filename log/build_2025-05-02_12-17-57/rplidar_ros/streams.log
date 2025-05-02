@@ -1,0 +1,32 @@
+[1.220s] Invoking command in '/home/pi/ros2_main/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_main/build/rplidar_ros -- -j4 -l4
+[1.672s] [ 47%] Built target rplidar_composition
+[1.701s] [ 94%] Built target rplidar_node
+[1.941s] [100%] Built target rplidar_client
+[2.074s] Invoked command in '/home/pi/ros2_main/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_main/build/rplidar_ros -- -j4 -l4
+[2.075s] Invoking command in '/home/pi/ros2_main/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_main/build/rplidar_ros
+[2.170s] -- Install configuration: ""
+[2.174s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/launch
+[2.175s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[2.175s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/rviz
+[2.179s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[2.179s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[2.180s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.183s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[2.188s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[2.188s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[2.190s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[2.191s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[2.191s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[2.199s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[2.199s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[2.199s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[2.202s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[2.202s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[2.202s] -- Installing: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/package.dsv
+[2.203s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[2.203s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.203s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.208s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[2.209s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[2.209s] -- Up-to-date: /home/pi/ros2_main/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.219s] Invoked command in '/home/pi/ros2_main/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_main/install/your_twist_converter:/home/pi/ros2_main/install/yolo_detector:/home/pi/ros2_main/install/py_pubsub:/home/pi/ros2_main/install/nav2_simple_commander:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_main/build/rplidar_ros
