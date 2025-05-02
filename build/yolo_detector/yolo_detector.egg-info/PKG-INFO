@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: yolo-detector
-Version: 0.0.1
-Summary: ROS2 package for real-time object detection using YOLO
-Maintainer: your_name
-Maintainer-email: your_email@example.com
-License: Apache License 2.0

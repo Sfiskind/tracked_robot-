@@ -1,6 +1,0 @@
-source;share/your_twist_converter/hook/pythonpath.ps1
-source;share/your_twist_converter/hook/pythonpath.dsv
-source;share/your_twist_converter/hook/pythonpath.sh
-source;share/your_twist_converter/hook/ament_prefix_path.ps1
-source;share/your_twist_converter/hook/ament_prefix_path.dsv
-source;share/your_twist_converter/hook/ament_prefix_path.sh
