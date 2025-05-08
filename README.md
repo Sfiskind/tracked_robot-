@@ -1,5 +1,5 @@
 # tracked_robot-
-# Master's Thesis: Tracked Mobile Robot Control and Navigation
+# Tracked Mobile Robot Control and Navigation
 
 **Author:** Mykyta Semeniuk
 **Field:** Mechanical Engineer
@@ -7,15 +7,12 @@
 
 ## Project Overview
 
-This repository contains the code and documentation for my Master's thesis project, which focused on the development, control, and navigation of a tracked mobile robot. The project involved implementing various robotics concepts to enable autonomous operation in different environments.
+This repository contains the code and documentation for my Master's thesis project, which focused on the development, control, and navigation of a tracked mobile robot. The project involved implementing various robotics concepts to enable autonomous operation.
 
 ## Hardware Components
 
-(A brief description of the key hardware components used in the robot can be added here. For example: microcontroller, sensors, motors, chassis type, etc.)
+![elec_circut_diagram](https://github.com/user-attachments/assets/d66401ff-0d3f-4760-a10c-a828d311f470)
 
-## Software Implementation & Demonstrations
-
-The software stack for this robot enables several key functionalities, demonstrated in the videos below:
 
 ### 1. Map Generation using `slam_toolbox`
 
