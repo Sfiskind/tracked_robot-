@@ -39,3 +39,5 @@ This video demonstrates the robot's ability to follow a predefined sequence of w
 
 The robot is also equipped with image recognition capabilities using a YOLO (You Only Look Once) model. This allows the robot to detect and classify objects in its environment.
 ![image_2025-04-18_14-06-33](https://github.com/user-attachments/assets/b52560e2-8d9a-4e2c-98a6-f6954ec97516)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bXNAAfkjVrU?si=N-f4LH1Ovx1-PCk6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
