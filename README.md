@@ -33,7 +33,16 @@ This video showcases the robot's autonomous navigation capabilities utilizing th
 This video demonstrates the robot's ability to follow a predefined sequence of waypoints.
 
 
-[![Watch the video: Waypoints Following](img/WP.png)](https://www.youtube.com/watch?v=bXNAAfkjVrU&feature=youtu.be)
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/bXNAAfkjVrU"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
 
 ### 4. Image Recognition with YOLO
 
