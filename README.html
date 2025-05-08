@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tracked Mobile Robot Control and Navigation</title>
+</head>
+<body>
+
+  <h1>Tracked Mobile Robot Control and Navigation</h1>
+  <p><strong>Author:</strong> Mykyta Semeniuk<br>
+     <strong>Field:</strong> Mechanical Engineer<br>
+     <strong>LinkedIn:</strong>
+     <a href="https://www.linkedin.com/in/mykytasemeniuk/" target="_blank" rel="noopener">Mykyta Semeniuk</a>
+  </p>
+
+  <h2>Project Overview</h2>
+  <p>
+    This repository contains the code and documentation for my Master's thesis project,
+    which focused on the development, control, and navigation of a tracked mobile robot.
+    The project involved implementing various robotics concepts to enable autonomous operation.
+  </p>
+
+  <h2>Hardware Components</h2>
+  <p>
+    A single-board computer, Raspberry Pi, is used for high-level processing, and an Arduino
+    controller is utilized for real-time control tasks. The sensing system for environment
+    perception includes 2D LiDAR and a camera for image recognition. The connection diagram
+    is illustrated below.
+  </p>
+  <p>
+    <img src="https://github.com/user-attachments/assets/d85cb51d-b9f3-4889-96a7-0808faf127da" alt="HDW diagram">
+  </p>
+
+  <h3>1. Map Generation using <code>slam_toolbox</code></h3>
+  <p>
+    This video demonstrates the robot's capability to generate a 2D map of an unknown
+    environment using the <code>slam_toolbox</code> package in ROS 2. The robot navigates an
+    indoor environment, mapping the space and identifying objects. The robot's movement and
+    image recognition are displayed in real-time, showcasing its ability to perceive and
+    understand its surroundings. However, the average FPS value is low.
+  </p>
+  <p>
+    <a href="https://www.youtube.com/watch?v=KoiuUJr53Bk" target="_blank" rel="noopener">
+      <img src="img/map__.png" alt="Watch the video: Map Generation with slam_toolbox">
+    </a>
+  </p>
+
+  <h3>2. Navigation using Nav2</h3>
+  <p>
+    This video showcases the robot's autonomous navigation capabilities utilizing the Nav2
+    stack in ROS.
+  </p>
+  <p>
+    <a href="https://www.youtube.com/watch?v=2oC5GsGaoCk" target="_blank" rel="noopener">
+      <img src="img/nav.png" alt="Watch the video: Navigation with Nav2">
+    </a>
+  </p>
+
+  <h3>3. Waypoints Following</h3>
+  <p>
+    This video demonstrates the robot's ability to follow a predefined sequence of waypoints.
+  </p>
+  <p>
+    <a href="https://youtu.be/bXNAAfkjVrU" target="_blank" rel="noopener">
+      <img src="https://img.youtube.com/vi/bXNAAfkjVrU/hqdefault.jpg" alt="Watch the video: Waypoints Following">
+    </a>
+  </p>
+
+  <h3>4. Image Recognition with YOLO</h3>
+  <p>
+    The robot is also equipped with image recognition capabilities using a YOLO (You Only Look
+    Once) model. This allows the robot to detect and classify objects in its environment.
+  </p>
+  <p>
+    <img src="https://github.com/user-attachments/assets/b52560e2-8d9a-4e2c-98a6-f6954ec97516" alt="YOLO image recognition">
+  </p>
+
+</body>
+</html>
