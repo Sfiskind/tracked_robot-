@@ -18,21 +18,21 @@ A single-board computer, Raspberry Pi, is used for high-level processing, and an
 
 This video demonstrates the robot's capability to generate a 2D map of an unknown environment using the `slam_toolbox` package in ROS 2. The robot navigates an indoor environment, mapping the space and identifying objects. The robot's movement and image recognition are displayed in real-time, showcasing its ability to perceive and understand its surroundings. However, the  average FPS value is low.
 
-* **Video Link:** [Map Generation with slam_toolbox](https://www.youtube.com/watch?v=KoiuUJr53Bk&ab_channel=NikitaSemenyuk)
+* **Video Link:** [![Watch the video: Map Generation with slam_toolbox](URL_TO_YOUR_VIDEO_THUMBNAIL_IMAGE_0)](https://www.youtube.com/watch?v=KoiuUJr53Bk&ab_channel=NikitaSemenyuk)
 
 ### 2. Navigation using Nav2
 
 This video showcases the robot's autonomous navigation capabilities utilizing the Nav2 stack in ROS.
-*(Summary for this video could not be retrieved at this time.)*
 
-* **Video Link:** [Navigation with Nav2](https://www.youtube.com/watch?v=2oC5GsGaoCk&ab_channel=NikitaSemenyuk)
+
+* **Video Link:** [![Watch the video: Navigation with Nav2](URL_TO_YOUR_VIDEO_THUMBNAIL_IMAGE_1)](https://www.youtube.com/watch?v=2oC5GsGaoCk&ab_channel=NikitaSemenyuk)
 
 ### 3. Waypoints Following
 
 This video demonstrates the robot's ability to follow a predefined sequence of waypoints.
-*(Summary for this video could not be retrieved at this time.)*
 
-* **Video Link:** [Waypoints Following](https://www.youtube.com/watch?v=bXNAAfkjVrU&feature=youtu.be)
+
+* **Video Link:** [![Watch the video: Waypoints Following](URL_TO_YOUR_VIDEO_THUMBNAIL_IMAGE_2)](https://www.youtube.com/watch?v=bXNAAfkjVrU&feature=youtu.be)
 
 ### 4. Image Recognition with YOLO
 
